@@ -1,0 +1,461 @@
+body{
+	background: url(../img/bg.jpg) $color_bg_dark top center no-repeat;
+	background-size: cover;
+}
+body.basic-bg{
+	background: url(../img/bg2.jpg) $color_bg_dark top center repeat-x;
+}
+.btn-cal-telno{
+    font:300 20px/34px Kanit, Tahoma;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navwrapper{
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.topnav{
+	.nav{
+		margin-top: 15px;
+		li.active a,
+		li a:hover{
+			background-color: $color_primary !important;
+		}
+	}
+}
+.course-head{
+	margin-bottom: 20px;
+	i{
+		font-size: 24px;
+		position: relative;
+		top: 3px;
+		margin-right: 8px;
+		color: #fff;
+	}
+	span{
+		color: $color_primary;
+		font: 300 24px/30px Kanit, Tahoma;
+	}
+}
+.bg{
+	/*background: url(../img/blackboard.jpg) no-repeat bottom center;*/
+	/*background-size: cover;*/
+}
+.course-wrapper{
+	margin-top: 40px;
+}
+.topnav .navbar-nav .nav-item a{
+	color: #fff !important;
+	font: 300 20px/24px Kanit, Tahoma;
+	text-shadow: 0px 0px 8px rgba(0,0,0,0.75);
+	outline: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+.navbar-default .navbar-toggle{
+	background-color: #fff;
+	.icon-bar{
+		background-color: $color_primary;
+	}
+}
+.navbar-default{
+	background-color: transparent;
+}
+.intro{
+	font: 300 36px/38px Kanit, Tahoma;
+	color: $color_primary;
+	margin-bottom: 30px;
+}
+.intro-desc{
+	font: 300 22px/30px Kanit, Tahoma;
+	margin-bottom: 40px;
+	color: #fff;
+	-webkit-text-shadow: 0px 0px 5px #000;
+	-moz-text-shadow: 0px 0px 5px #000;
+	-ms-text-shadow: 0px 0px 5px #000;
+	-o-text-shadow: 0px 0px 5px #000;
+	text-shadow: 0px 0px 5px #000;
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.concept-head{
+	display: block;
+	margin-top: 20px;
+	color: $text_light_blue;
+	font: 300 24px/30px Kanit, Tahoma;
+}
+.concept-desc{
+	font: 300 20px/30px Kanit, Tahoma;
+	margin-top: 10px;
+	color: $color_grey;
+}
+.search{
+	border:1px solid #ccc;
+	border-left:6px solid $color_yellow;
+	font:300 18px/20px Kanit, Tahoma;
+	padding: 10px 10px 10px 20px;
+	width: 400px;
+	max-width: 100%;
+	outline: 0px;
+}
+.concept-row{
+	padding:50px 0;
+}
+.logo {
+	padding-top:50px;
+	padding-bottom:150px;
+	img{
+		width: auto;
+	}
+	.logo-desc{
+		border:0px;
+	}
+}
+
+.course-action{
+	border-top: 1px solid $color_grey;
+	margin-top: 5px;
+	padding-top: 5px;
+	&:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+}
+.facebookiframe{
+	iframe{
+		max-width: 100%;
+	}
+}
+.course-price{
+	font-family: Kanit, Tahoma;
+}
+.old-price{
+	color: $color_red;
+	text-decoration: line-through;
+	margin-right: 5px;
+	font-size: 18px;
+}
+.new-price{
+	font-size: 26px;
+}
+
+.btn-action-1,
+.btn-action-2{
+	border-radius: 0px;
+	color: #fff !important; 
+	font: 300 18px/20px Kanit, Tahoma;
+	padding: 8px 15px;
+	i{
+		margin-right: 5px;
+	}
+}
+.btn-action-1{
+	background-color: $color_grey;
+}
+.btn-action-2{
+	background-color: $color_green;
+}
+.course .course-title{
+	font-weight: 300;
+	color: #fff;
+	display: block;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	padding-bottom: 15px;
+	margin-bottom: 0px;
+	&:after{
+		display: none;
+	}
+}
+p.copyright{
+	margin-top: 0px;
+	font-size: 16px;
+}
+.pre-footer{
+	background-color: #051e27;
+	color: #fff !important;
+	margin-top: 0;
+}
+footer{
+	padding: 25px 0;
+	background-color: #04171e;
+}
+.searchwrapper{
+	position: relative;
+}
+.searchbtn{
+	background-color: #fff;
+	border:1px solid #ccc;
+	border-left: 0px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-left: -1px;
+	position: relative;
+	top: 3px;
+	outline: 0px;
+	i{
+		font-size: 28px;
+		line-height: 35px;
+		color: $color_primary;
+	}
+}
+.quickhead{
+	font:300 18px/20px Kanit, Tahoma;
+}
+.quicklink{
+	margin-top: 10px;
+	li{
+		line-height: 28px;
+	}
+	a{
+		color: #fff;
+		text-decoration: underline;
+	}
+}
+.logo-mobile{
+	display: none;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	border-color: transparent;
+}
+.myaccount-menu{
+    list-style: none;
+    font: 300 18px/28px Kanit, Tahoma;
+    margin-bottom: 40px;
+    li i{
+    	width: 25px;
+    }
+}
+.profile-box{
+	.row{
+		line-height: 30px;
+	}
+}
+.content-head h4{
+	font-family: Kanit, Tahoma;
+}
+.purchase-list{
+	list-style: none;
+	a{
+		font: normal 16px/18px Kanit, Tahoma;
+	}
+	.date{
+		display:block;
+		margin-top: 10px;
+		color: #666;
+	}
+	li{
+		border-bottom: 1px solid #ccc;
+		padding-bottom: 15px;
+		margin-bottom: 15px;
+	}
+}
+.btn-gotocourse{
+}
+
+/* menu admin */
+.myaccount-menu{
+    background-color: #fff;
+    padding:20px;
+    border-radius: 4px;
+    border:1px solid #ccc;
+    border-top-width:4px;
+    li{
+    	border-bottom: 1px dashed #ccc;
+    	padding-bottom: 5px;
+    	padding-top: 5px;
+    }
+}
+.adminbar{
+	border-bottom:3px solid $color_primary;
+	.admin-topmenu{
+		.fa{
+			margin-right: 10px;
+		}
+		.btn{
+			font-size: 18px;
+			font-family: Kanit, Tahoma;
+			border-left: 1px solid #ccc;
+		}
+	}
+	.admin-name{
+		font-size: 18px;
+		font-family: Kanit, Tahoma;
+	}
+	.text-topmenu{
+
+	}
+}
+.course-detail{
+	.bg{
+		background-position: top;
+	}
+}
+.course-h4{
+	color: $color_primary;
+	font: normal 18px/20px Kanit, Tahoma;
+}
+.course-para{
+	padding-top:15px;
+	color: #fff;
+	p{
+		margin-bottom: 30px;
+	}
+}
+.course-divide{
+	border-bottom: 1px solid #ccc;
+	padding: 15px 0;
+	margin-bottom: 20px;
+}
+.course-list{
+	list-style:none;
+	margin:0; padding:0;
+}
+.course-list > li{
+	margin-bottom: 25px;
+}
+.course-list > li > .course-title{
+	display:block;
+	background: #eaeaea;
+	box-sizing: border-box;
+	padding: 10px 15px;
+	font:300 16px/18px Kanit, Tahoma;
+	margin-bottom: 5px;
+}
+.course-sub{
+	list-style:none;
+	margin-top: 10px;
+	> li{
+		margin-bottom: 15px;
+	}
+}
+.course-head .btn .fa{
+	top: 0px;
+	font-size: 18px;
+}
+.cart video{
+	display: none;
+}
+.btn-circle{
+	-webkit-border-radius: 50px !important;
+	-moz-border-radius: 50px !important;
+	-ms-border-radius: 50px !important;
+	-o-border-radius: 50px !important;
+	border-radius: 50px !important;
+}
+.table .pad{
+	display: inline-block;
+	padding-top: 7px;
+}
+.checkout-row{
+	margin-top: 25px;
+}
+.table.table-cart{
+	tfoot
+		th{
+			padding-top:15px;
+			font-size: 18px;
+		}
+}
+.sample-video{
+	max-width: 100%;
+}
+ul.nav.nav-learning {
+   font-size: 14px;
+   margin-top: 20px;
+}
+.btn-course-cancel{
+	background: #d43f3a;
+	color: #fff;
+}
+.btn-course-confirm:hover{
+	color: #fff;
+}
+.btn-course-confirm{
+	margin-left: 5px;
+	background: #5cb85c;
+	color: #fff;
+}
+.head-sub{
+	font-family: Kanit, Tahoma;
+	color: $color_primary;
+	font-size: 16px;
+}
+.color_activity{
+	color: $color_activity !important;
+}
+.color_news{
+	color: $color_news !important;
+}
+.color_exp{
+	color: $color_exp !important;
+}
+.color_amulet{
+	color: $color_amulet !important;
+}
+.list-news{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	li:last-child{
+		border:0px;
+	}
+	li{
+		border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+		padding:8px 0;
+		a{
+			color: #fff;
+			font-size: 12px;
+		}
+	}
+}
+.telno-wrapper {
+    display:inline-block;
+    width:70px;
+    margin-left: 10px;
+}
+.telno-name-row {
+	.telno{
+		font-size: 24px;
+		line-height: 60px;
+	}
+}
+.telno{
+    width: 100%;
+    border-radius: 15px;
+    line-height: 80px;
+    border: 2px solid #fff;
+    box-shadow:inset 0px 0px 30px rgba(0,0,0,0.3);
+    text-align:center;
+    font-size: 40px;
+    outline: 0px;
+}
+.ml-no{
+	margin-left: 0px !important;
+}
+.telno-wrapper.dashed {
+    color: #fff;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 0px;
+	margin-left: 0px !important;
+}
+.cal-telno-intro{
+	color: #fff;
+	font-size: 20px;
+	padding-bottom: 20px;
+	-webkit-text-shadow: 0px 0px 5px #000;
+	-moz-text-shadow: 0px 0px 5px #000;
+	-ms-text-shadow: 0px 0px 5px #000;
+	-o-text-shadow: 0px 0px 5px #000;
+	text-shadow: 0px 0px 5px #000;
+	font-weight: 300;
+	font-family: Kanit, Tahoma;
+}
+.view-detail-img img{
+	max-width: 100%;
+}
+

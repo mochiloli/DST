@@ -1,0 +1,140 @@
+/*
+.skin-green-light .main-header .navbar {
+    background-color: #26a69a;
+    box-shadow: 0 3px 0px 0 rgba(0,0,0,0.14), 0 1px 0px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+}
+.skin-green-light .main-header .logo {
+    background-color: #26a69a;
+    color: #fff;
+    border-bottom: 0 solid transparent;
+    box-shadow: 0 3px 0px 0 rgba(0,0,0,0.14), 0 1px 0px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+}
+.skin-green-light .main-header .logo:hover {
+    background-color: #26a69a;
+    color: #fff;
+    border-bottom: 0 solid transparent;
+}
+
+.skin-green-light .main-header .navbar .sidebar-toggle:hover {
+    color: #f6f6f6;
+    background: rgba(0,0,0,.1);
+    background-color: #26a69a;
+}*/
+
+.box.box-success {
+    border-top-color: #605ca8;
+}
+
+.box.box-primary{
+    border-top-color: #605ca8; 
+}
+
+/*.btn-add {
+    color: #fff;
+    background-color: #26a69a;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+    border-radius: 2px;
+}
+.btn-add:hover {
+    color: #b8c7ce;
+    text-decoration: none;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+}
+
+
+.btn-edit {
+    color: #fff;
+    background-color: #26a69a;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+    border-radius: 2px;
+}
+.btn-edit:hover {
+    color: #b8c7ce;
+    text-decoration: none;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+}
+
+
+
+.btn-delete {
+    color: #fff;
+    background-color: #26a69a;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+    border-radius: 2px;
+}
+.btn-delete:hover {
+    color: #b8c7ce;
+    text-decoration: none;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+}
+
+.btn-save {
+    color: #fff;
+    background-color: #26a69a;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+    border-radius: 2px;
+}
+.btn-save:hover {
+    color: #b8c7ce;
+    text-decoration: none;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+}
+
+.btn-return {
+    color: #fff;
+    background-color: #26a69a;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+    border-radius: 2px;
+}
+.btn-return:hover {
+    color: #b8c7ce;
+    text-decoration: none;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+}
+
+
+.btn-setting-report{
+    color: #fff;
+    background-color: #26a69a;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+    border-radius: 2px;
+}
+.btn-setting-report:hover {
+    color: #b8c7ce;
+    text-decoration: none;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+}
+
+
+.btn-listbank {
+    color: #fff;
+    background-color: #26a69a;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+    border-radius: 2px;
+}
+.btn-listbank:hover {
+    color: #b8c7ce;
+    text-decoration: none;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+}
+
+.btn-cardfinal{
+    color: #fff;
+    background-color: #26a69a;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+    border-radius: 2px;
+}
+.btn-cardfinal:hover {
+    color: #b8c7ce;
+    text-decoration: none;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+}
+
+input[type=checkbox] ,input[type=radio] {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 6px;
+}*/
+
+
